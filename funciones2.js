@@ -61,9 +61,19 @@ var z =ejercicio3(arr);
 }
 console.log("-----------Fin----------");
 
+// 4.- Doble Visión - Dado un array, crea una función que devuelva un nuevo array donde cada valor se duplique. Entonces, doble([1,2,3]) debiera devolver [2, 4, 6] sin cambiar el array original. 
 console.log("Ejercicio 4:")
 console.log("-----------Inicio----------");
 {
+    var arr = [1,2,3]; 
+    function ejercicio4(){
+        var narray=[];
+        for(var i=0; i<arr.length;i++){
+            narray[i] =arr[i]+arr[i]; 
+        }
+        console.log(narray)
+    }
+    ejercicio4(arr);
 
 }
 console.log("-----------Fin----------");
